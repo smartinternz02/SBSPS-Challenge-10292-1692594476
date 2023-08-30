@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>K DRAMA VISUALSPHERE</title>
+    <link
+      href="{{url_for('static',filename = 'css/style.css')}}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main id="about">
+      <nav class="navbar navbar-expand-lg bg-dark w-100">
+        <div class="container-fluid">
+          <img
+            src="{{url_for('static',filename = 'images/logo.png')}}"
+            class="logo_v"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item border-radius">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="{{ url_for('index') }}"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item border-radius">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="{{ url_for('about') }}"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="{{ url_for('dashboard') }}"
+                  >Dashboard</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="{{ url_for('story') }}"
+                  >Story</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="container d-flex justify-content-end">
+            <a href="{{url_for('logout')}}">
+              <button
+                type="button"
+                class="btn btn-outline-primary mx-2"
+                href="{{url_for('logout')}}"
+              >
+                Logout
+              </button>
+            </a>
+            <a href="{{ url_for('login') }}">
+              <button
+                type="button"
+                class="btn btn-outline-primary mx-2"
+                href="{{ url_for('login') }}"
+              >
+                Login
+              </button>
+            </a>
+            <a href="{{ url_for('register') }}">
+              <button
+                type="button"
+                class="btn btn-outline-primary mx-2"
+                href="{{ url_for('register') }}"
+              >
+                Register
+              </button>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="container_about">
+        <div class="content_about">
+          <h1 class="heading_about">About <span>Us</span></h1>
+          <div class="container_content_section_1">
+            <p class="para">Welcome to K-DRAMA Visual Sphere !!!</p>
+            <p class="para">
+              We are passionate about discovering, designing and uncovering the
+              unseen stories in our data at K-DRAMA Visual Sphere.
+            </p>
+
+            <p class="para">
+              Our mission is to empower all the directors and audience with the
+              tools and insights needed to navigate through the world of complex
+              analysis of Korean dramas. This website is designed to resolve your doubt and
+              cater to your needs for viewing and gathering knowledge on
+              K-Dramas.
+            </p>
+          </div>
+        </div>
+        <div class="content_about_second">
+          <h1 class="heading_about">Team <span>Members</span></h1>
+          <div class="cards_container">
+            <div class="flexbox_cards d-flex justify-content-center">
+              
+              
+
+              <div class="card mx-3 team " style="width: 18rem">
+                <img
+                  src="{{url_for('static', filename='images/me.png')}}"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Rahul Kumar</h5>
+                  <ul class="deatils text-center">
+                    <li class="details_items">
+                      <i
+                        >Final year Undergraduate Student in B.Tech. in ECE from
+                        Delhi Technlogical University, Delhi.</i
+                      >
+                    </li>
+                    <li class="details_items"></li>
+                    <li class="details_items"></li>
+                  </ul>
+                  <a
+                    href="https://www.linkedin.com/in/rahul-kumar-7534111ab
+                  "
+                    class="btn btn-primary"
+                    >LinkedIn</a
+                  >
+                  <a
+                    href="https://github.com/notinrange
+
+
+                  "
+                    class="btn btn-primary"
+                    >Github</a
+                  >
+                  <a
+                    href="mailto:rahulkumarpoddar0703@gmail.com"
+                    class="btn btn-primary"
+                    >   E-Mail   </a
+                  >
+                </div>
+              </div>
+
+
+              
+              <div class="card mx-3 team" style="width: 18rem">
+                <img
+                  src="{{url_for('static', filename='images/nazia.jpg')}}"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Nazia Zehen</h5>
+                  <ul class="deatils text-center">
+                    <li class="details_items">
+                      <i
+                        >Final year Undergraduate Student in B.Tech. in CSE&A
+                        from Indira Gandhi Institute of Technology, Sarang,
+                        Dhenkanal, Odisha.</i
+                      >
+                    </li>
+                    <li class="details_items"></li>
+                    <li class="details_items"></li>
+                    <li class="details_items"></li>
+                  </ul>
+                  <a
+                    href="https://www.linkedin.com/in/nazia-zehan-153196175
+                  "
+                    class="btn btn-primary"
+                    >LinkedIn</a
+                  >
+                  <a
+                    href="https://github.com/naz789
+
+                  "
+                    class="btn btn-primary"
+                    >Github</a
+                  >
+                  <a
+                    href="mailto:nazia.zehan786@gmail.com"
+                    class="btn btn-primary"
+                    >E-Mail</a
+                  >
+                </div>
+              </div>
+
+
+              <div class="card mx-3 team" style="width: 18rem">
+                <img
+                  src="{{url_for('static', filename='images/aditikumari.jpg')}}"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Aditi Kumari</h5>
+                  <ul class="deatils text-center">
+                    <li class="details_items">
+                      <i
+                        >Final year Undergraduate Student in B.Tech. in CSE from
+                        Dr. B. C. Roy Engineering College, Durgapur.</i
+                      >
+                    </li>
+                    <li class="details_items"></li>
+                    <li class="details_items"></li>
+                    <li class="details_items"></li>
+                  </ul>
+                  <a
+                    href="https://www.linkedin.com/in/aditi-kumari-076025226"
+                    class="btn btn-primary"
+                    >LinkedIn</a
+                  >
+                  <a
+                    href="http://github.com/the-aditiumari841
+                  "
+                    class="btn btn-primary"
+                    >Github</a
+                  >
+                  <a
+                    href="mailto:aditikumari8421@gmail.com"
+                    class="btn btn-primary"
+                    > E-Mail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div>
+              <h1 class="heading_about">
+                JOIN THE <span> K DRAMA Visual Sphere</span> Community
+              </h1>
+              <div class="heading_details">
+                <h1>
+                  <a
+                    href="mailto:victorsvisualization@gmail.com"
+                    class="btn btn-primary"
+                    >Mail Us at victorsvisualization@gmail.com
+                  </a>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
