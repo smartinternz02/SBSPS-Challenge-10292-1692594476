@@ -11,6 +11,8 @@
 ![Screenshot (626)](https://github.com/smartinternz02/SBSPS-Challenge-10292-1692594476/assets/106309632/2dd1a60c-89a4-4519-bd2e-03fb44575ecd)
 
 
+
+
 ## Nazia Zehan
 
 ### Journey to cloud - Envisioning Your Solution : 
@@ -20,6 +22,8 @@
 ### Getting Started with Enterprise Data Science :
 #### Link to view on Credly : https://www.credly.com/badges/2ad65b21-c59f-4026-bd16-c6c2b78ae545/public_url 
 ![Screenshot (628)](https://github.com/smartinternz02/SBSPS-Challenge-10292-1692594476/assets/106309632/67b96583-13a5-441a-82bd-e0190fcd224e)
+
+
 
 
 ## Aditi Kumari
