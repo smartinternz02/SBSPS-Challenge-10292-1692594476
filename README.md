@@ -2,18 +2,18 @@
 # The Cognos Effect: Unleashing Actionable Insights on the Top 100 K-Dramas of 2023
 
 ## Team Members
-1. Rahul Kumar 
-2. Nazia Zehan
-3. Aditi Kumari
+#### 1. Rahul Kumar 
+#### 2. Nazia Zehan
+#### 3. Aditi Kumari
 
 ## Description
-The popularity of Korean dramas (KDramas) has soared globally, and in 2023, the market is flooded with numerous productions. Here we have leveraged the power of Cognos, an analytics platform, to analyze the top 100 KDramas of 2023 and generate actionable insights that can guide decision-making and strategy formulation for stakeholders in the KDrama industry.
+The popularity of Korean dramas has soared globally, and in 2023, the market is flooded with numerous productions. Here, we have leveraged the power of Cognos, an analytics platform, to analyze the top 100 KDramas of 2023 and generate actionable insights that can guide decision-making and strategy formulation for stakeholders in the KDrama industry.
 
 ## Objective
 The Objective here is to leverage the capabilities of the Cognos analytics platform to gather, integrate, and analyze data on the top 100 KDramas of 2023. By utilizing Cognos' advanced analytics and reporting features, stakeholders in the KDrama industry can gain actionable insights to guide their decision-making processes, improve content creation strategies, optimize monetization models, and enhance audience engagement and satisfaction.
 
 ## Technologies used
-IBM Cognos, Python, web Framework flask.
+IBM Cognos, Python, web Framework flask, HTML and CSS.
 
 ## IBM Courses Badges Links of Team Members
 
@@ -31,25 +31,18 @@ IBM Cognos, Python, web Framework flask.
 #### [Getting Started with Enterprise Data Science](https://www.credly.com/badges/4c335fd1-8e8e-41ae-bcc5-1c82a62e4163/public_url)
 
 ## Video link
-https://drive.google.com/file/d/1Dkua9vCnRiywAjMo4gY2hAxUMmRQt0aV/view?usp=drive_link
+#### https://drive.google.com/file/d/1Dkua9vCnRiywAjMo4gY2hAxUMmRQt0aV/view?usp=drive_link
 
 ## Website deployment link
-https://kdramavisualsphere.pythonanywhere.com/
+#### https://kdramavisualsphere.pythonanywhere.com/
 
 ## Project report link
-https://drive.google.com/drive/folders/1Mz7aphcBRNPgBDWEcSqYbj7hpNDsVNIE?usp=sharing
+#### https://drive.google.com/drive/folders/1Mz7aphcBRNPgBDWEcSqYbj7hpNDsVNIE?usp=sharing
 
 ### Steps to login
 
-1. Go to the register page by clicking the Register button on the navigation bar.
-
-2. Login With your registration credentials.
-
-3. For viewing the story and dashboard you will be navigated to the IBM Cognos login page of IBM Cognos with credentials provided in my team report.
-
-In that case, you need dual login credentials.
-
-
-
-
+1. Go to the register page for regiistering on the website by clicking the Register button on the navigation bar.
+2. You need dual login credentials to view story and dashboard.
+3. So firstly, Login With your registered credentials on the website to land on story and dashboard webpage.
+4. Secondly, You have to enter credentials provided in our project report to login in the IBM Cognos account and get insights by viewing Story and Dashboard.
 
