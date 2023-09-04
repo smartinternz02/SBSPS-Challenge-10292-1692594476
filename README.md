@@ -62,3 +62,4 @@ IBM Cognos, Python, web Framework flask, HTML and CSS.
 3. So firstly, Login With your registered credentials on the website to land on story and dashboard webpage.
 4. Secondly, You have to enter credentials provided in our project report to login in the IBM Cognos account and get insights by viewing Story and Dashboard.
 
+--------------
