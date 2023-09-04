@@ -33,7 +33,7 @@ IBM Cognos, Python, web Framework flask, HTML and CSS.
 ## Video link
 #### https://drive.google.com/file/d/1Dkua9vCnRiywAjMo4gY2hAxUMmRQt0aV/view?usp=drive_link
 
-## Deployment Website link
+## Deployed Website link
 #### https://kdramavisualsphere.pythonanywhere.com/
 
 ## Project report link
