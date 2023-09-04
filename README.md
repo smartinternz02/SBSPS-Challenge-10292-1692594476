@@ -5,18 +5,22 @@
 #### 1. Rahul Kumar 
 #### 2. Nazia Zehan
 #### 3. Aditi Kumari
+
 ------------------------------------
 
 ## Description
 The popularity of Korean dramas has soared globally, and in 2023, the market is flooded with numerous productions. Here, we have leveraged the power of Cognos, an analytics platform, to analyze the top 100 KDramas of 2023 and generate actionable insights that can guide decision-making and strategy formulation for stakeholders in the KDrama industry.
+
 ------------------------------------
 
 ## Objective
 The Objective here is to leverage the capabilities of the Cognos analytics platform to gather, integrate, and analyze data on the top 100 KDramas of 2023. By utilizing Cognos' advanced analytics and reporting features, stakeholders in the KDrama industry can gain actionable insights to guide their decision-making processes, improve content creation strategies, optimize monetization models, and enhance audience engagement and satisfaction.
+
 ------------------------------------
 
 ## Technologies used
 IBM Cognos, Python, web Framework flask, HTML and CSS.
+
 -------------------------------------
 
 ## IBM Courses Badges Links of Team Members
@@ -33,18 +37,22 @@ IBM Cognos, Python, web Framework flask, HTML and CSS.
 ### Aditi Kumari
 #### [Journey to Cloud: Envisioning Your Solution](https://www.credly.com/badges/56f407e9-2dfe-4e57-b6a6-d850de3f4709/public_url)
 #### [Getting Started with Enterprise Data Science](https://www.credly.com/badges/4c335fd1-8e8e-41ae-bcc5-1c82a62e4163/public_url)
+
 ---------------------------
 
 ## Video link
 #### https://drive.google.com/file/d/1Dkua9vCnRiywAjMo4gY2hAxUMmRQt0aV/view?usp=drive_link
+
 ----------------------------
 
 ## Deployed Website link
 #### https://kdramavisualsphere.pythonanywhere.com/
+
 ---------------------------
 
 ## Project report link
 #### https://drive.google.com/drive/folders/1Mz7aphcBRNPgBDWEcSqYbj7hpNDsVNIE?usp=sharing
+
 ----------------------------
 
 ### Steps to login
